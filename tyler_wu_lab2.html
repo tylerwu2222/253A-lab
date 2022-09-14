@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <section id="about-me-sec">
+            <h2>Tyler Wu</h2>
+            <h3>About Me</h3>
+                <ul>
+                    <li><b>Undergraduate:</b> UCLA <span><img src="joe-bruin.png" height="20em"></span></li>
+                    <li><b>Interests:</b> Data viz, data journalism, and web development</li>
+                    <li><b>Hotel:</b> Trivago</li>
+                    <li><a href="https://www.linkedin.com/in/tyler-wu/" target="_blank">LinkedIn</a></li>
+                    <li><a href="http://www.smalldata.blog/" target="_blank">Data Blog</a></li>
+                </ul>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h3>A picture of me</h3>
+                    <img src="hmm.jpeg" id="hm-img" alt="img of tyler" title="tyler wu is the leftmost individual">
+                </div>
+                <div class="grid-item">
+                    <h3>A video from my YouTube channel</h3>
+                    <iframe id="sdb-vid" src="https://www.youtube.com/embed/zVJtNP-kU4M">
+                    </iframe>
+                </div>
+                <div class="grid-item">
+                    <p>Applying inline styles to an <span style="color: red; font-style: italic;">inline span</span>.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-form-sec">
+            <h3 class="underlined-header">Contact Form</h3>
+            <form id="contact-form">
+                <div class="form-item">
+                    <label for="name-field"><b>Name</b></label><br />
+                    <input type="text" name="name-field"><br />
+                </div>
+                <label for="radio-field"><b>Degree level</b></label><br />
+                <div class="radio-buttons form-item">
+                    <label for="radio-field1">Undergrad</label>
+                    <input type="radio" id="Undergrad" name="radio-field1" value="Undergrad"><br />
+                    <label for="radio-field1">Grad</label>
+                    <input type="radio" id="Grad" name="radio-field2" value="Grad"><br />
+                </div>
+                <div class="checkboxes form-item">
+                    <label for="checkbox"><b>What is your MIMS focus(es)?</b></label><br />
+                    <label for="cb-field1">Human-Computer Interaction</label>
+                    <input type="checkbox" name="cb-field1" value="HCI"><br />
+                    <label for="cb-field2">Data Science</label>
+                    <input type="checkbox" name="cb-field2" value="Data Science"><br />
+                    <label for="cb-field3">Information Ethics</label>
+                    <input type="checkbox" name="cb-field3" value="Information Ethics"><br />
+                </div>
+                <input type="submit" value="Submit!">
+            </form>
+        </section>
+    </div>
+</body>

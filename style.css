@@ -1,0 +1,57 @@
+body{
+    font-family: 'Open Sans';
+    color:rgb(0, 0, 0);
+    background-color: #EACCAA;
+}
+
+section{
+  padding: 0 0 0 10vmin;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  /* padding: 10px; */
+}
+.grid-item {
+  padding: 20px;
+}
+
+#hm-img{
+  object-fit: cover;
+  width: 50vmin;
+  height: 50vmin;
+  border-radius: 2em;
+}
+
+#sdb-vid{
+  width: 50vmin;
+  height: 50vmin;
+  border-radius: 2em;
+}
+
+.underlined-header{
+    text-decoration: underline;
+}
+
+#contact-form{
+  padding: 20px 0 0 20px;
+}
+
+.form-item{
+  padding: 0 0 20px 0; 
+}
+
+.checkboxes input {
+    vertical-align: middle;
+  }
+.checkboxes label span {
+    vertical-align: middle;
+  }
+
+.radio-buttons input {
+    vertical-align: middle;
+  }
+.radio-buttons label span {
+    vertical-align: middle;
+  }
