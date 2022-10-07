@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="page-wrapper">
+        
+            <div class="grid-container">
+                <div class="grid-item" id="grid-item-1">
+                    <h2>Tyler Wu</h2>
+                        <h3>About Me</h3>
+                        <ul>
+                            <li><b>Undergraduate:</b> <span style="color:#007DC3; font-weight: 700;">UCLA</span><span><img id="joe-img" src="https://i.ibb.co/VvSwBhJ/joe-bruin.png" alt="joe-bruin" border="0" /></span></li>
+                            <li><b>Interests:</b> Data viz 📊, data journalism 📰, and web development ⌨️</li>
+                            <li><b>Hotel:</b> Trivago🏨</li>
+                            <li><a href="https://www.linkedin.com/in/tyler-wu/" target="_blank">LinkedIn</a></li>
+                            <li><a href="http://www.smalldata.blog/" target="_blank">Data Blog</a></li>
+                        </ul>
+                </div>
+                <div class="grid-item" id="grid-item-2">
+                    <h3>A picture of me</h3>
+                    <img src="https://i.ibb.co/7CCNCg8/hmm.jpg" id="hm-img" title="tyler wu is the leftmost individual" alt="image of tyler" border="0" />
+                </div>
+                <div class="grid-item" id="grid-item-3">
+                    <h3>A video from my YouTube channel</h3>
+                    <iframe id="sdb-vid" src="https://www.youtube.com/embed/zVJtNP-kU4M">
+                    </iframe>
+                </div>
+                <div class="grid-item" id="grid-item-4">
+                    <h2>CONTACT FORM</h3>
+                    <form id="contact-form" name="contactForm">
+                        <div class="form-item">
+                            <label for="name-field"><b>Name</b></label><br />
+                            <input type="text" name="nameField"><br />
+                        </div>
+                        <label for="radio-field"><b>Degree level</b></label><br />
+                        <div class="radio-buttons form-item">
+                            <label for="radio-field">Undergraduate</label>
+                            <input type="radio" id="Undergrad" name="degreeField" value="undergraduate"><br />
+                            <label for="radio-field">Graduate</label>
+                            <input type="radio" id="Grad" name="degreeField" value="graduate"><br />
+                        </div>
+                        <div class="checkboxes form-item">
+                            <label for="checkbox"><b>What is your MIMS focus(es)?</b></label><br />
+                            <label for="cb-field1">Human-Computer Interaction and UX Design</label>
+                            <input type="checkbox" name="focusField" value="HCI & UX"><br />
+                            <label for="cb-field2">Data Science and Machine Learning</label>
+                            <input type="checkbox" name="focusField" value="Data Science & Machine Learning"><br />
+                            <label for="cb-field3">Information Policy and Ethics</label>
+                            <input type="checkbox" name="focusField" value="Information Policy & Ethics"><br />
+                        </div>
+                        <button id='submitButton'>Submit</button>
+                    </form>
+                </div>
+            </div>
+    </div>
+</body>
